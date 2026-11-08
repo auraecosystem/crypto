@@ -1,5 +1,5 @@
 b2 authorize-account [-h]  [applicationKeyId] [applicationKey]
-b2 cancel-all-unfinished-large-files [-h] bucketName
+b2 cancel-all-unfinished-large-files [-h] bucketName 
 b2 cancel-large-file [-h] fileId
 b2 clear-account [-h]
 b2 copy-file-by-id [-h] [--fetchMetadata] [--contentType CONTENTTYPE] [--range RANGE] [--info INFO | --noInfo] [--destinationServerSideEncryption {SSE-B2,SSE-C}] [--destinationServerSideEncryptionAlgorithm {AES256}] [--sourceServerSideEncryption {SSE-C}] [--sourceServerSideEncryptionAlgorithm {AES256}] [--fileRetentionMode {compliance,governance}] [--retainUntil TIMESTAMP] [--legalHold {on,off}] sourceFileId destinationBucketName b2FileName
